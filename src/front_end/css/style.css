@@ -1,0 +1,45 @@
+html{
+    color: rgb(96, 99, 102);
+    background: #dbdbd83b;
+}
+*{
+    font-family: Meiryo;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.title_text{
+    padding-top: 80px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+p1{
+    font-size: 25px;
+}
+
+.main_contents{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+input{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+}
+.button{
+    align-self: center;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 20px;
+    color: rgb(193, 221, 247);
+    max-width: 100%;
+    margin: 0 auto;
+}
