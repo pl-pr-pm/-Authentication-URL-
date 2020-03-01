@@ -11,14 +11,14 @@
     </p1>
 </div>
     <div class="main_contents">
-        <form action="accept.python" method="GET">
+        <form action="http://127.0.0.1:8000/request-authentification-url" method="POST">
             <p>
                 <span class="item-name">name:</span>
-                <input type="text" name="name" placeholder="brabrabra" required autofocus>
+                <input type="text" name="username" placeholder="brabrabra" required autofocus>
             </p>
             <p>
                 <span class="item-name">email:</span>
-                <input type="email" name="email" placeholder="hogehoge@example.com" required autofocus>
+                <input type="email" name="email" placeholder="hogehoge@example.com" required autofocus autocomplete="off">
             </p>
             <div class="button">
                 <input type="submit" value="submit">
