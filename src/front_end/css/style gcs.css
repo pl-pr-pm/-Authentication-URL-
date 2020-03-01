@@ -1,0 +1,40 @@
+html{
+    color: rgb(96, 99, 102);
+    background: #dbdbd83b;
+}
+*{
+    font-family: Meiryo;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.title_text{
+    padding-top: 80px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.main_contents{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.core_infrastracture {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foundation{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.core_services{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
