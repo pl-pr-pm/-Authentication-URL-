@@ -21,7 +21,7 @@ def send_notification():
 
     yes_url, no_url = generate_return_url(uuid, answer_url)
 
-    send_message = f'You requested for Authentification url of GCS from \n<{username}>\n<{email}>\n Do you know anything about it?\n <{yes_url}|*YES*> <{no_url}|*NO*>'
+    send_message = f'飴ちゃん嫌いやで〜\n You requested for Authentification url of GCS from \n<{username}>\n<{email}>\n Do you know anything about it?\n <{yes_url}|*YES*> <{no_url}|*NO*>'
     send_notification_slack(WEB_HOOK_URL, send_message)
 
     return "Please wait finish of check your request."

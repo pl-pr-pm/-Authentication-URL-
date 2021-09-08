@@ -43,7 +43,7 @@ def generate_return_url(uuid, destination):
 
 def send_notification_mail():
 
-    link_url = generate_download_signed_url_v4('static-ctn-app', 'portfolio.html')
+    link_url = generate_download_signed_url_v4('static-ctn-app', 'dummy_portfolio.html')
 
     gmail_account = config_pase("gmail_account")
     gmail_password = config_pase("gmail_password")
